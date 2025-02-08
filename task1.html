@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 1</title>
+    <style>
+        #mainbox {
+            background-color: rgba(92, 246, 107, 0.79);
+            border: 3px solid red;
+            box-shadow: 15px 15px rgba(128, 128, 128, 0.212);
+            width: 100vh;
+            height: 98vh;
+            margin: auto;
+            /* overflow-wrap:; */
+        }
+        #mainbox:hover {
+            /* transform: translateX(20px); */
+            transform: scale(1.02);
+            /* translate: 20; */
+            
+        }
+
+        #main {
+            width: 98%;
+            background-color: whitesmoke;
+            margin-left: 7px;
+        }
+
+        .common {
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .image1 {
+            width: 110px;
+            height: 97px;
+            display: flex;
+        }
+
+        .image2 {
+            width: 80px;
+            height: 70px;
+            display: flex;
+        }
+        #first {
+            display: flex;
+        }
+
+        p {
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        .image {
+            display: flex;
+            margin: 20px;
+            padding: 5px;
+        }
+
+        #second {
+            justify-content: space-around;
+            margin-left: 28%;
+        }
+
+        #third,
+        #fourth {
+            justify-content: end;
+        }
+        #rf{
+            margin-left: 15px;
+        }
+        #img2{
+width: 150px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="mainbox">
+        <div class="common">
+            <p> SHRI DADAJI INSTITUTE OF TECHNOLOGY AND SCIENCE KHANDWA (M.P)</p>
+        </div>
+        <div id="main">
+            <div class="image" id="first">
+                <img src="1.jpg" alt="" class="image2">
+                <img src="1.jpg" alt="" class="image2">
+                <img src="1.jpg" alt="" class="image2">
+                <img src="1.jpg" alt="" class="image2">
+                <p>Security Camera</p>
+            </div>
+            <div class="image" id="second">
+                <div>
+                <img src="2.jpg" alt="" class="image2" id="img2">
+                <p>Camera Multiplexer</p></div>
+               <div id="rf"> <img src="3.jpg" alt="" class="image2">
+                <p>Rf Modular
+                    Create a TV Channel
+                </p></div>
+            </div>
+            <div class="image" id="third">
+                <img src="4.jpg" alt="" class="image1">
+                <p>Video Combiner</p>
+            </div>
+            <div class="image" id="fourth">
+                <img src="5.jpg" alt="" class="image1">
+            </div>
+        </div>
+        <div class="common">
+            <p> Submitted By :- Rajni Verma</p>
+            <p> Branch :- C.S</p>
+        </div>
+    </div>
+</body>
+
+</html>
